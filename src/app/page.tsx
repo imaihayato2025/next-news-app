@@ -1,6 +1,6 @@
 import "./globals.css";
 import Link from "next/link";
-import Themabtn from "./components/ThemaBtn";
+import ThemaBtn from "./components/ThemaBtn";
 
 export default function Home() {
   return (
@@ -12,7 +12,7 @@ export default function Home() {
             記事一覧へ
           </button>
         </Link>
-        <Themabtn
+        <ThemaBtn
           label1="テーマ"
           label2="変更"
           className="absolute right-[10px] bottom-[10px]"
