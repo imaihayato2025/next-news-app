@@ -16,6 +16,7 @@ export default function NewsAll() {
         <ThemaBtn
           label1="TOPへ"
           label2="戻る"
+          disableToggle
           className="absolute right-[10px] bottom-[110px]"
         />
       </Link>
